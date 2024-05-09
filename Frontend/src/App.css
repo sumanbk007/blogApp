@@ -5,6 +5,13 @@ body{
   font-size: 1rem;
   /* 1rem = 16px */
 }
+
+header{
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 nav{
 
   display: flex;
@@ -13,7 +20,6 @@ nav{
   height: 70px;
   color: white;
   padding-inline: 2rem;
-  position: sticky;
   background:linear-gradient(90deg, rgba(12, 12, 110, 1) 14%, rgba(37, 17, 105, 1) 16%, rgba(138, 38, 87, 1) 24%, rgba(64, 13, 117, 1) 100%);
 }
 
@@ -56,3 +62,18 @@ nav{
   border-radius: 5px;
 }
 
+
+
+@media screen and (max-width:767px){
+
+
+nav{
+
+  padding-inline: 1rem;
+}
+  .navBtns button {
+      height: 27px;
+      width: 60px;
+      
+    }
+}

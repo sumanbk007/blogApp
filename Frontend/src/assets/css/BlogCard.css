@@ -68,3 +68,13 @@
 .delete-btn:hover {
     opacity: 0.8;
 }
+
+
+@media screen and (max-width:767px) {
+    
+
+   .blog-card{
+    width: 360px;
+   
+}
+}
